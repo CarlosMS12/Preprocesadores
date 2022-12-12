@@ -1,5 +1,6 @@
 -var titulo = "Sub-titulo Principal"
 -var titulos = ["Titulo Principal","Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
+-var usuario = "David"
 doctype html
 html(lang="en")
 	head
@@ -11,7 +12,10 @@ html(lang="en")
 	body
 		header 
 			h1 PlatziGames
-			a.boton Registro
+			if usuario
+				a Hola #{usuario}
+			else
+				a.boton Registro
 		section.intro
 			// Si no pones la etiqueta y solo el punto, te lo coloca como un div en html
 			.intro__imagen: img(src="/images/imagen.png", alt="")
