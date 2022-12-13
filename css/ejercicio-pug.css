@@ -2,6 +2,8 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -125,4 +127,38 @@ footer ul {
 footer li {
 	list-style: none;
 	margin: 0 20px;
+}
+.reto_main {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.reto_main nav {
+	width: calc(65% - 661.91px);
+	background-color: #eef1f9;
+}
+.reto_main nav div {
+	margin-left: 60px;
+	margin-top: 70px;
+	font-size: 20px;
+}
+.reto_main nav div h1 {
+	padding-bottom: 10px;
+}
+.reto_main nav div li {
+	padding: 15px 0;
+	list-style: none;
+	color: #384e7d;
+}
+.reto_main section {
+	width: 70%;
+	height: calc(100vh - 200px );
+}
+.reto_main section div {
+	margin: 50px;
+	padding: 20px;
+	font-size: 25px;
+}
+.reto_main section div a {
+	margin-top: 50px;
 }

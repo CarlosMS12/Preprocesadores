@@ -1,0 +1,16 @@
+extend plantilla.pug
+block contenidos
+    main.reto_main
+        nav 
+            div
+                h1 
+                    a MENU 
+                ul 
+                    each enlace in enlaces 
+                        li=enlace
+        section.reto
+            div.intro__reto
+                h2 #{titulos[0]}
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, a corporis placeat, harum rerum delectus pariatur repudiandae quam non id tenetur illo sunt aliquam, esse molestiae quibusdam ducimus est. Unde!
+                span Cumque quia quis exercitationem incidunt amet sint tempora est voluptatibus?
+                a.boton LEER MAS
